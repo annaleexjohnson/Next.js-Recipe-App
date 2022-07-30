@@ -1,0 +1,81 @@
+// @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght0, 200,0,300;0,400;0,700;1,400;1,700&display=swap');
+
+.banner{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    border: 0.1rem solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner__image{
+    display: flex;
+    justify-self: center;
+    height: 20rem;
+    width: 20rem;
+    margin: 3rem 0;
+    margin-left: 15vw;
+    border-radius: 50%;
+    background-color: #F86B05;
+    background-image: url('../images/food.jpg');
+    background-position: center;
+    background-size: cover;
+    outline: 1rem solid #FFA361;
+}
+
+.banner__message{
+    margin-left: 10rem;
+}
+
+.bannerText{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.bannerText__title{
+    font-weight: 300;
+}
+
+.banner__btn{
+    width: 12rem;
+    height: 4rem;
+    border: 0.2rem solid #FFA361;
+    border-radius: 1rem;
+    background-color: white;
+    font-family: inherit;
+    font-size: 1.5rem; 
+    color: #F86B05;
+    margin-top: 2rem;
+}
+
+.bannerText__animation{
+    width: 40rem;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.bannerText__animation:before{
+    content: 'need something quick after your 8 hour shift';
+    animation: 25s ease-in 0s infinite animateText;
+}
+
+@keyframes animateText {
+    0%{
+        content: 'need something quick after your 8 hour shift';
+    }
+    25%{
+        content: 'invited your vegan friend over for dinner';
+    }
+    50%{
+        content: 'volunteered to make something for the bake sale';
+    }
+    75%{
+        content: 'want food from around the world in your own kitchen';
+    }
+    100%{
+        content: "don't want to order delivery for the third time this week";
+    }
+}

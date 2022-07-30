@@ -1,0 +1,46 @@
+.review__container{
+    background-color: #F86B05;
+    width: 75%;
+    height: 25rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.review__image{
+    background-image: url('../images/homecook.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 2rem solid white;
+}
+
+.review__text{
+    color: white;
+    
+    >*{
+        width: 70%;
+    }
+}
+
+.review__textTitle{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.review__rating{
+    color: #9AB0FF;
+
+    > * {
+        transform: scale(1.8);
+        margin: 0.5rem;
+    }
+}
+
+.review__textQuote{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,35 @@
+.browseCard{
+    position: relative;
+    height: 35vh;
+    max-width: 15vw;
+    margin: 0;
+}
+.browseCard__img{
+    height: 35vh;
+    width: 100%;
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+.titleOverlay{
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    bottom: 0;
+    width: 15vw;
+    height: 35vh;
+    border-radius: 1.5rem;
+    color: #FFA361;
+    text-align: center;
+    font-size: 1rem;
+    padding:0.5rem;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+
+    &:hover{
+        opacity: 100%;
+        transition: 150ms ease-in-out;
+    }
+}

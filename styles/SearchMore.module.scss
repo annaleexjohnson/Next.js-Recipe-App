@@ -1,0 +1,21 @@
+.searchMore{
+    color: white;
+    text-align: center;
+    margin: 6rem 0;
+    
+    > h1 {
+        font-weight: 300;
+    }
+}
+
+.searchMore__btn{
+    width: 12rem;
+    height: 4rem;
+    border: 0.2rem solid #FFA361;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: inherit;
+    font-size: 1.5rem; 
+    color: #F86B05;
+    margin-top: 2rem;
+}

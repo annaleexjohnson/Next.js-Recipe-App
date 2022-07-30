@@ -1,16 +1,16 @@
-import styles from "../styles/Banner.module.css"
-import SearchIcon from '@mui/icons-material/Search';
+import React from "react";
+import styles from "../styles/Banner.module.scss"
 
 const Banner = () => {
     return (
         <div className={styles.banner}>
             <div className={styles.banner__image}></div>
-            <div className={styles.banner__search}>
-                <span>find a recipe</span>
-                <form className={styles.banner__searchForm}>
-                    <input type="text" className={styles.banner__searchInput}/>
-                    <SearchIcon fontSize="large" className={styles.banner__searchIcon}/>
-                </form>
+            <div className={styles.banner__message}>
+                <div className={styles.bannerText}>
+                    <h1 className={styles.bannerText__title}>Find a recipe for when you</h1>
+                    <div className={styles.bannerText__animation}></div>
+                </div>
+                <button className={styles.banner__btn}>Get Started</button>
             </div>
         </div>
     );

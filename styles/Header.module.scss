@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem 0;
+    box-shadow: 0rem 0.3rem 0.4rem #cccccc;
+    z-index: 100;
+}
+
+.header > h1 {
+    font-family: 'League Script', cursive;
+    margin: 0;
+    margin: 1rem 0 0 2.5rem;
+    color: #F86B05;
+}
+
+.nav__link{
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    color: #FFA361;
+
+    &:hover{
+        padding-bottom: 0.7rem;
+        border-bottom: 0.2rem solid #FFA361;
+        transition: 100ms ease-in;
+        cursor: pointer;
+    }
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+    background-color: #F3F3F3;
+    border: none;
+    margin-right: 2.5rem;
+    width: 15rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-family: inherit;
+}
+
+.header__searchInput{
+    background-color: #F3F3F3;
+    border: none;
+    padding: 0 0.7rem;
+    font-family: inherit;
+    font-size: 1rem;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.header__searchBtn:hover{
+    color:#F86B05;
+}
