@@ -46,30 +46,27 @@ const RecipePage = (props) => {
 
     return (
         <>
-            <Header />
+            <Header /> 
+            <div className={styles.recipe__header}>
+                <h1>{recipe.title}</h1>
+                <p><b>Recipe from {recipe.creditsText}</b></p>
+                <a href={recipe.sourceUrl}>{`${recipe.sourceUrl}`}</a>
+            </div>
+            
             <div className={styles.recipeContainer}>
-                <div className={styles.recipe__header}>
-                    <h1>{recipe.title}</h1>
-                    <p><b>Recipe from {recipe.creditsText}</b></p>
-                    <a href={recipe.sourceUrl}>{`${recipe.sourceUrl}`}</a>
-
+                <div className={styles.recipe__image} style={{backgroundImage: `url(${recipe.image})`}}></div>
+                
+                <div className={styles.recipe__ingredients}>
+                    <h1>Ingredients</h1>
+                    <ul>
+                        {
+                            ingredients.map((item, index)=>{
+                                return (<li key={index}>{item.original}</li>)
+                            })
+                        }
+                    </ul>
                 </div>
-
-                {/* "https://www.foodista.com/recipe/QKLVNNXS/crab-artichoke-dip-hot" */}
-
-                <div className={styles.recipe__block1}>
-                    <div className={styles.recipe__image} style={{backgroundImage: `url(${recipe.image})`}}></div>
-                    <div className={styles.recipe__ingredients}>
-                        <h1>Ingredients</h1>
-                        <ul>
-                            {
-                                ingredients.map((item, index)=>{
-                                    return (<li key={index}>{item.original}</li>)
-                                })
-                            }
-                        </ul>
-                    </div>
-                </div>
+                
                 <div className={styles.recipe__instructions}>
                     <h1>Instructions</h1>
                     <ol>
