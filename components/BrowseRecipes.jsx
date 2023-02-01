@@ -34,7 +34,7 @@ const BrowseRecipes = (props) => {
     }
     
     return (
-        <div className={styles.browseRecipes}> 
+        <div className={styles.browseRecipes} id="browse-recipes"> 
             <div className={styles.browseRecipes__title}>
                 <hr></hr>
                 <h1>Browse</h1>

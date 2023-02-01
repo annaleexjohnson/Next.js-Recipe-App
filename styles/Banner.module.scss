@@ -47,6 +47,13 @@
     font-size: 1.5rem; 
     color: #F86B05;
     margin-top: 2rem;
+    transition: 150ms ease-in-out;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #F86B05;
+        color: white;
+    }
 }
 
 .bannerText__animation{
