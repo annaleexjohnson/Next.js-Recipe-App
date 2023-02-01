@@ -22,7 +22,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This website was created to practice using APIs to create a front-end project using Next.js. Credit for the recipe API goes to www.spoonacular.com. All images taken from www.pexels.com.
 
-Although the home page and links to recipes have been completed, there is still work to be done regarding the other pages, such as the "Recipes" and "Popular" links seen in the header.
+Although the home page and links to recipes have been completed, there is still work to be done regarding the other pages, such as the "Recipes" and "Popular" links seen in the header, as well as the search functions.
 
 https://user-images.githubusercontent.com/87035551/216179633-948aaee8-4e88-4c03-8364-c57437074373.mov
 
