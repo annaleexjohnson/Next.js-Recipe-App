@@ -18,6 +18,20 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## About
+
+This website was created to practice using APIs to create a front-end project using Next.js. Credit for the recipe API goes to www.spoonacular.com. All images taken from www.pexels.com.
+
+Although the home page and links to recipes have been completed, there is still work to be done regarding the other pages, such as the "Recipes" and "Popular" links seen in the header.
+
+https://user-images.githubusercontent.com/87035551/216179633-948aaee8-4e88-4c03-8364-c57437074373.mov
+
+
+
+https://user-images.githubusercontent.com/87035551/216179681-a1901eae-adb9-4231-947c-44471cbf4505.mov
+
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
